@@ -1,4 +1,9 @@
 .wrapper {
-    display: grid;
-    grid-template-columns: 200px 1fr;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+.main {
+  display: grid;
+  place-items: center;
 }

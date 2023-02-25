@@ -1,10 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import MainTemplate from "@/templates/MainTemplate";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -15,13 +9,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={inter.className}>
-        <div className={styles.main}>
-          <MainTemplate>
-            <h1>Hello world</h1>
-          </MainTemplate>
-        </div>
-      </div>
+      <main>
+        <h1>
+          Hello, I am Kamil Budzik and this is a showcase of my svg animations
+          skills.
+        </h1>
+      </main>
     </>
   );
 }
